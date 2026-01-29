@@ -53,4 +53,67 @@
     <loc>https://habitclarity.vercel.app/daily-habits/morning-habits/</loc>
   </url>
 
+   <url>
+    <loc>https://habitclarity.vercel.app/morning-routine/</loc>
+    
+  </url>
+
+  <url>
+    <loc>https://habitclarity.vercel.app/morning-routine/mindfulness-routine/</loc>
+   
+  </url>
+
+  <url>
+    <loc>https://habitclarity.vercel.app/morning-routine/planning-your-day/</loc>
+    
+  </url>
+
+  <url>
+    <loc>https://habitclarity.vercel.app/morning-routine/wake-up-routine/</loc>
+    
+  </url>
+
+  <!-- SIMPLE LIVING -->
+  <url>
+    <loc>https://habitclarity.vercel.app/simple-living/</loc>
+    
+  </url>
+
+  <url>
+    <loc>https://habitclarity.vercel.app/simple-living/decluttering-life/</loc>
+    
+  </url>
+
+  <url>
+    <loc>https://habitclarity.vercel.app/simple-living/intentional-living/</loc>
+    
+  </url>
+
+  <url>
+    <loc>https://habitclarity.vercel.app/simple-living/minimalist-living/</loc>
+    
+  </url>
+
+  <!-- PRODUCTIVITY -->
+  <url>
+    <loc>https://habitclarity.vercel.app/productivity/</loc>
+    
+  </url>
+
+  <url>
+    <loc>https://habitclarity.vercel.app/productivity/avoid-distractions/</loc>
+    
+  </url>
+
+  <url>
+    <loc>https://habitclarity.vercel.app/productivity/focus-techniques/</loc>
+    
+  </url>
+
+  <url>
+    <loc>https://habitclarity.vercel.app/productivity/time-management/</loc>
+    
+  </url>
+
+
 </urlset>

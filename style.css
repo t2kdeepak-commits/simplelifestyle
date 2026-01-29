@@ -132,7 +132,9 @@ a:hover {
   position: sticky;
   top: 0;
   z-index: 1000;
-  padding: var(--spacing-sm) 0;
+  height: 64px;
+  display: flex;
+  align-items: center;
   background: var(--glass-bg);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
@@ -170,14 +172,26 @@ a:hover {
 }
 
 .logo img {
-  height: 90px;          /* use 60px for 300×80 or 200×60 */
+  height: 42px;          /* use 60px for 300×80 or 200×60 */
   width: auto;
+  max-height: 100%;
   display: block;
+  object-fit: contain;
   transition: transform 0.3s ease;
 }
 
 .logo img:hover {
   transform: scale(1.05);
+}
+
+@media(max-width:768px)
+{
+  .header {
+    height: 56px;
+  }
+  .logo img {
+    height: 36px;
+  }
 }
 
 
@@ -236,6 +250,9 @@ a:hover {
   }
   
   .nav-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
     display: none;
     width: 100%;
     flex-direction: column;
@@ -247,6 +264,7 @@ a:hover {
     padding: var(--spacing-md);
     margin-top: var(--spacing-sm);
     gap: var(--spacing-xs);
+    z-index: 999;
   }
   
   .nav-menu.active {

@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.simplehealthylife.com/sitemap.xml
+Sitemap: https://habitclarity.vercel.app/sitemap.xml

@@ -1,135 +1,135 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://sitemaps.org/schemas/sitemap/0.9">
 
   <!-- HOME -->
   <url>
-    <loc>https://www.simplehealthylife.com/</loc>
+    <loc>https://simplehealthylife.com/</loc>
     <priority>1.0</priority>
   </url>
 
   <!-- CORE PAGES -->
   <url>
-    <loc>https://www.simplehealthylife.com/about/</loc>
+    <loc>https://simplehealthylife.com/about/</loc>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://www.simplehealthylife.com/contact/</loc>
+    <loc>https://simplehealthylife.com/contact/</loc>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://www.simplehealthylife.com/privacy-policy/</loc>
+    <loc>https://simplehealthylife.com/privacy-policy/</loc>
     <priority>0.5</priority>
   </url>
 
   <url>
-    <loc>https://www.simplehealthylife.com/terms/</loc>
+    <loc>https://simplehealthylife.com/terms/</loc>
     <priority>0.5</priority>
   </url>
 
   <!-- BLOG -->
   <url>
-    <loc>https://www.simplehealthylife.com/blog/</loc>
+    <loc>https://simplehealthylife.com/blog/</loc>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://www.simplehealthylife.com/blog/benefits-of-simple-living/</loc>
+    <loc>https://simplehealthylife.com/blog/benefits-of-simple-living/</loc>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://www.simplehealthylife.com/blog/build-good-habits/</loc>
+    <loc>https://simplehealthylife.com/blog/build-good-habits/</loc>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://www.simplehealthylife.com/blog/morning-routine-mistakes/</loc>
+    <loc>https://simplehealthylife.com/blog/morning-routine-mistakes/</loc>
     <priority>0.7</priority>
   </url>
 
   <!-- DAILY HABITS -->
   <url>
-    <loc>https://www.simplehealthylife.com/daily-habits/</loc>
+    <loc>https://simplehealthylife.com/daily-habits/</loc>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://www.simplehealthylife.com/daily-habits/evening-habits/</loc>
+    <loc>https://simplehealthylife.com/daily-habits/evening-habits/</loc>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://www.simplehealthylife.com/daily-habits/healthy-mindset/</loc>
+    <loc>https://simplehealthylife.com/daily-habits/healthy-mindset/</loc>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://www.simplehealthylife.com/daily-habits/morning-habits/</loc>
+    <loc>https://simplehealthylife.com/daily-habits/morning-habits/</loc>
     <priority>0.7</priority>
   </url>
 
   <!-- MORNING ROUTINE -->
   <url>
-    <loc>https://www.simplehealthylife.com/morning-routine/</loc>
+    <loc>https://simplehealthylife.com/morning-routine/</loc>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://www.simplehealthylife.com/morning-routine/mindfulness-routine/</loc>
+    <loc>https://simplehealthylife.com/morning-routine/mindfulness-routine/</loc>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://www.simplehealthylife.com/morning-routine/planning-your-day/</loc>
+    <loc>https://simplehealthylife.com/morning-routine/planning-your-day/</loc>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://www.simplehealthylife.com/morning-routine/wake-up-routine/</loc>
+    <loc>https://simplehealthylife.com/morning-routine/wake-up-routine/</loc>
     <priority>0.7</priority>
   </url>
 
   <!-- SIMPLE LIVING -->
   <url>
-    <loc>https://www.simplehealthylife.com/simple-living/</loc>
+    <loc>https://simplehealthylife.com/simple-living/</loc>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://www.simplehealthylife.com/simple-living/decluttering-life/</loc>
+    <loc>https://simplehealthylife.com/simple-living/decluttering-life/</loc>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://www.simplehealthylife.com/simple-living/intentional-living/</loc>
+    <loc>https://simplehealthylife.com/simple-living/intentional-living/</loc>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://www.simplehealthylife.com/simple-living/minimalist-living/</loc>
+    <loc>https://simplehealthylife.com/simple-living/minimalist-living/</loc>
     <priority>0.7</priority>
   </url>
 
   <!-- PRODUCTIVITY -->
   <url>
-    <loc>https://www.simplehealthylife.com/productivity/</loc>
+    <loc>https://simplehealthylife.com/productivity/</loc>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://www.simplehealthylife.com/productivity/avoid-distractions/</loc>
+    <loc>https://simplehealthylife.com/productivity/avoid-distractions/</loc>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://www.simplehealthylife.com/productivity/focus-techniques/</loc>
+    <loc>https://simplehealthylife.com/productivity/focus-techniques/</loc>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://www.simplehealthylife.com/productivity/time-management/</loc>
+    <loc>https://simplehealthylife.com/productivity/time-management/</loc>
     <priority>0.7</priority>
   </url>
 

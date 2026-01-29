@@ -170,7 +170,7 @@ a:hover {
 }
 
 .logo img {
-  height: 60px;          /* use 60px for 300×80 or 200×60 */
+  height: 90px;          /* use 60px for 300×80 or 200×60 */
   width: auto;
   display: block;
   transition: transform 0.3s ease;

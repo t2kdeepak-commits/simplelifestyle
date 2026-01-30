@@ -223,6 +223,15 @@ img {
   border-radius: 8px;
 }
 
+.internal-links a{
+  text-decoration: none;
+  color: var(--text-dark);
+}
+
+.internal-links a:hover{
+  text-decoration: underline;
+}
+
 /* ========== Footer ========== */
 .footer {
   margin-top: var(--space-xl);
@@ -243,3 +252,4 @@ img {
   margin-top: var(--space-md);
   font-size: 0.9rem;
 }
+

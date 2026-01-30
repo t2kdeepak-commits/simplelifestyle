@@ -82,50 +82,9 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: var(--space-sm);
 }
 
-/* Logo */
-.logo img {
-  height: 42px;
-  width: auto;
-}
-
-/* Nav */
-.nav-menu {
-  display: flex;
-  list-style: none;
-  gap: var(--space-md);
-}
-
-.nav-toggle {
-  display: none;
-  font-size: 1.6rem;
-  background: none;
-  border: none;
-}
-
-/* ========== Mobile Nav ========== */
-@media (max-width:768px) {
-  .nav-toggle { display: block; }
-
-  .nav-menu {
-    position: fixed;
-    top: 72px;
-    right: 16px;
-    width: min(90vw,280px);
-    background: white;
-    border-radius: 14px;
-    padding: 16px;
-    display: none;
-    flex-direction: column;
-    box-shadow: 0 20px 40px rgba(0,0,0,.2);
-  }
-
-  .nav-menu.active { display: flex; }
-}
-
-/* ========== Hero ========== */
+/* ========== Hero (FULLY OPTIMIZED) ========== */
 .hero {
   padding: var(--space-xl) var(--space-md);
   text-align: center;
@@ -136,12 +95,42 @@ a {
   margin: auto;
 }
 
-.hero p {
-  font-size: 1.1rem;
-  color: var(--text-medium);
+.hero h1 {
+  max-width: 880px;
+  margin: 0 auto var(--space-md);
 }
 
-/* ========== Layout Containers ========== */
+.hero p {
+  max-width: 600px;
+  margin: 0 auto var(--space-lg);
+  font-size: 1.1rem;
+  color: var(--text-medium);
+  line-height: 1.7;
+}
+
+.hero .btn {
+  margin-top: var(--space-sm);
+}
+
+/* ========== Buttons ========== */
+.btn,.btn-secondary {
+  display: inline-block;
+  padding: 0.7rem 1.6rem;
+  border-radius: 12px;
+  font-weight: 600;
+}
+
+.btn {
+  background: var(--primary-color);
+  color: white;
+}
+
+.btn-secondary {
+  border: 2px solid var(--primary-color);
+  color: var(--text-dark);
+}
+
+/* ========== Containers ========== */
 .container {
   max-width: var(--container-max);
   margin: auto;
@@ -170,52 +159,19 @@ a {
   gap: var(--space-lg);
 }
 
-.grid-card {
-  display: flex;
-  flex-direction: column;
-  padding: var(--space-md);
-  border-radius: 16px;
-  background: var(--glass-bg);
-  border: 1px solid var(--glass-border);
-}
-
-.grid-card p { flex-grow: 1; }
-
-/* ========== Buttons ========== */
-.btn,.btn-secondary {
-  display: inline-block;
-  padding: 0.7rem 1.6rem;
-  border-radius: 12px;
-  font-weight: 600;
-}
-
-.btn {
-  background: var(--primary-color);
-  color: white;
-}
-
-.btn-secondary {
-  border: 2px solid var(--primary-color);
-  color: var(--text-dark);
-}
-
-/* ========== Images & Content ========== */
-img {
-  max-width: 100%;
-  height: 350px;
-}
-
+/* ========== Blog & Images ========== */
 .blog-content {
   max-width: 720px;
   margin: auto;
   font-size: 1.1rem;
 }
-.blog-image-wrapper{
+
+.blog-image-wrapper {
   display: flex;
   justify-content: center;
 }
 
-.blog-hero-image{
+.blog-hero-image {
   width: 100%;
   max-width: 720px;
   height: 350px;
@@ -223,36 +179,25 @@ img {
   border-radius: 8px;
 }
 
+/* ========== Internal Links (Centered) ========== */
 .internal-links {
   display: flex;
   flex-direction: column;
-  align-items: center;     /* centers horizontally */
+  align-items: center;
   text-align: center;
   margin: 60px auto;
 }
 
 .internal-links ul {
-  width:fit-content;
-  list-style-position: inside; /* keeps bullets centered */
-  padding-left: 0;
+  width: fit-content;
   margin: 0 auto;
+  padding-left: 0;
   text-align: left;
 }
 
 .internal-links li {
   margin: 12px 0;
 }
-
-.internal-links a {
-  text-decoration: none;
-  color: #2f3e34;
-  font-weight: 500;
-}
-
-.internal-links a:hover {
-  text-decoration: underline;
-}
-
 
 /* ========== Footer ========== */
 .footer {
@@ -261,17 +206,7 @@ img {
   background: var(--glass-bg);
 }
 
-.footer-content {
-  max-width: var(--container-max);
-  margin: auto;
-  display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
-  gap: var(--space-lg);
-}
-
 .footer-bottom {
   text-align: center;
-  margin-top: var(--space-md);
   font-size: 0.9rem;
 }
-

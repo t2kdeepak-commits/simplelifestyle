@@ -210,6 +210,18 @@ img {
   margin: auto;
   font-size: 1.1rem;
 }
+.blog-image-wrapper{
+  display: flex;
+  justify-content: center;
+}
+
+.blog-hero-image{
+  width: 100%;
+  max-width: 720px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 8px;
+}
 
 /* ========== Footer ========== */
 .footer {

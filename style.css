@@ -230,6 +230,9 @@ img {
 .internal-links h3{
   text-align: center;
 }
+.internal-links{
+  margin-top: 48px;
+}
 .internal-links u1{
   width: fit-content;
   margin: 16px auto 0;

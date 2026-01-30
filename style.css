@@ -275,3 +275,37 @@ a {
     grid-template-columns: 1fr;
   }
 }
+/* ================================================
+   SECTION GRID FIX – Equal Height + CTA Alignment
+================================================ */
+
+/* Parent grid (you already use .grid) */
+.grid {
+  align-items: stretch;
+}
+
+/* Individual category cards */
+.grid-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Push button to bottom */
+.grid-card .btn {
+  margin-top: auto;
+}
+/* ================================================
+   IMAGE SPACING FIX – Prevent Section Overlap
+================================================ */
+
+/* Blog / section image wrapper */
+.blog-image-wrapper {
+  margin-bottom: var(--space-xl);
+}
+
+/* Safety spacing before glass card */
+.glass-card {
+  margin-top: var(--space-lg);
+}
+

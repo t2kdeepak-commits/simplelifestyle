@@ -1,6 +1,6 @@
 /* =================================================
-   habitclarity – Future-Safe Global Styles
-   Responsive • Content-Expandable • SEO-Friendly
+   HabitClarity – Stable & Future-Safe Styles
+   Desktop + Mobile Safe • SEO Friendly
 ================================================= */
 
 /* ========== Variables ========== */
@@ -15,7 +15,6 @@
 
   --glass-bg: rgba(255, 255, 255, 0.28);
   --glass-border: rgba(255, 255, 255, 0.4);
-  --glass-shadow: rgba(0, 0, 0, 0.12);
 
   --space-xs: 0.5rem;
   --space-sm: 1rem;
@@ -65,7 +64,7 @@ a {
   text-decoration: none;
 }
 
-/* ========== Header ========== */
+/* ========== Header / Navigation ========== */
 .header {
   position: sticky;
   top: 0;
@@ -84,7 +83,50 @@ a {
   align-items: center;
 }
 
-/* ========== Hero (FULLY OPTIMIZED) ========== */
+/* Logo */
+.logo img {
+  height: 42px;
+}
+
+/* Nav Menu (Desktop) */
+.nav-menu {
+  display: flex;
+  list-style: none;
+  gap: var(--space-md);
+  align-items: center;
+}
+
+/* Mobile Toggle */
+.nav-toggle {
+  display: none;
+  font-size: 1.6rem;
+  background: none;
+  border: none;
+}
+
+/* ========== Mobile Navigation ========== */
+@media (max-width: 768px) {
+  .nav-toggle { display: block; }
+
+  .nav-menu {
+    position: fixed;
+    top: 72px;
+    right: 16px;
+    width: min(90vw,280px);
+    background: white;
+    border-radius: 14px;
+    padding: 16px;
+    display: none;
+    flex-direction: column;
+    box-shadow: 0 20px 40px rgba(0,0,0,.2);
+  }
+
+  .nav-menu.active {
+    display: flex;
+  }
+}
+
+/* ========== Hero (FIXED SPACING & CTA) ========== */
 .hero {
   padding: var(--space-xl) var(--space-md);
   text-align: center;
@@ -105,7 +147,6 @@ a {
   margin: 0 auto var(--space-lg);
   font-size: 1.1rem;
   color: var(--text-medium);
-  line-height: 1.7;
 }
 
 .hero .btn {
@@ -142,7 +183,7 @@ a {
   margin: auto;
 }
 
-/* ========== Cards ========== */
+/* ========== Cards & Grid ========== */
 .glass-card {
   background: var(--glass-bg);
   backdrop-filter: blur(18px);
@@ -152,14 +193,13 @@ a {
   margin-bottom: var(--space-lg);
 }
 
-/* ========== Grid ========== */
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
   gap: var(--space-lg);
 }
 
-/* ========== Blog & Images ========== */
+/* ========== Blog Content ========== */
 .blog-content {
   max-width: 720px;
   margin: auto;
@@ -199,14 +239,39 @@ a {
   margin: 12px 0;
 }
 
-/* ========== Footer ========== */
+/* ========== Footer (RESTORED & RESPONSIVE) ========== */
 .footer {
   margin-top: var(--space-xl);
   padding: var(--space-xl) var(--space-md);
   background: var(--glass-bg);
 }
 
+.footer-content {
+  max-width: var(--container-max);
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
+  gap: var(--space-lg);
+}
+
+.footer ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.footer li {
+  margin-bottom: 0.6rem;
+}
+
 .footer-bottom {
   text-align: center;
+  margin-top: var(--space-md);
   font-size: 0.9rem;
+}
+
+/* Mobile footer */
+@media (max-width: 768px) {
+  .footer-content {
+    grid-template-columns: 1fr;
+  }
 }

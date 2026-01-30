@@ -2,15 +2,14 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Contact Us - SimpleHealthyLife</title>
-  <meta name="description" content="Learn more about SimpleHealthyLife and our mission to promote simple, healthy, intentional living.">
+  <title>Contact habitclarity – Get in Touch</title>
+  <meta name="description" content="Contact habitclarity to ask questions, share feedback, or collaborate on promoting healthy daily habits and intentional living.">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
-
   <link rel="canonical" href="https://habitclarity.com/contact-us/">
+  <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="/style.css">
 
-  <!--Google analytics-->
+  <!--Google Analytics-->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-DCWPGWB7QE"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -19,23 +18,29 @@
     gtag('config', 'G-DCWPGWB7QE');
   </script>
 
-  <!--Google Search Console-->
-  <meta name="google-site-verification" content="il0VIb5TULJzTy4Z8qOdGybN6cRg0CE__K4dmpYFn0I" />
+  <!-- Schema Markup -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ContactPage",
+    "name": "Contact habitclarity",
+    "url": "https://habitclarity.com/contact-us/",
+    "description": "Get in touch with habitclarity to learn about daily habits, mindfulness, and intentional living."
+  }
+  </script>
 </head>
-
 <body>
 
 <header class="header">
   <nav class="nav-container">
     <div class="logo">
-      <a href="/index.html">
-        <img src="/images/logo.png" alt="habitclarity">
-      </a>
+      <a href="/index.html"><img src="/images/logo.png" alt="habitclarity logo"></a>
     </div>
     <ul class="nav-menu">
       <li><a href="/">Home</a></li>
-      <li><a href="/simple-living/">Simple Living</a></li>
       <li><a href="/daily-habits/">Daily Habits</a></li>
+      <li><a href="/morning-routine/">Morning Routine</a></li>
+      <li><a href="/simple-living/">Simple Living</a></li>
       <li><a href="/productivity/">Productivity</a></li>
       <li><a href="/blog/">Blog</a></li>
     </ul>
@@ -45,15 +50,34 @@
 <main class="container">
   <div class="glass-card">
     <h1>Contact habitclarity</h1>
-    <p>
-      habitclarity is dedicated to helping you build a calm, intentional,
-      and healthy lifestyle through practical daily habits and mindful living.
-    </p>
+    <p>Have questions, feedback, or collaboration ideas? Reach out to us and we’ll get back to you as soon as possible.</p>
+    <form action="/contact-submit" method="POST" class="contact-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
   </div>
+
+  <!-- FAQ Section -->
+  <section class="glass-card">
+    <h2>Frequently Asked Questions</h2>
+    <div class="faq-item">
+      <h3>How can I contact habitclarity?</h3>
+      <p>You can use the form above or email us at <a href="mailto:contact@habitclarity.com">contact@habitclarity.com</a>.</p>
+    </div>
+    <div class="faq-item">
+      <h3>Do you accept guest posts?</h3>
+      <p>Yes! Please reach out via the contact form to discuss guest posting opportunities.</p>
+    </div>
+  </section>
 </main>
 
 <footer class="footer">
-  <p>© 2026 habitclarity</p>
+  <p>&copy; 2026 habitclarity. All rights reserved.</p>
 </footer>
 
 <script src="/script.js"></script>

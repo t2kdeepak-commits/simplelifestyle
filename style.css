@@ -243,44 +243,69 @@ a:hover {
   width: 80%;
 }
 
-/* Mobile Navigation */
+
+/* ===============================
+   MOBILE NAVIGATION (FIXED OVERLAY)
+   =============================== */
 @media (max-width: 768px) {
+
   .nav-toggle {
     display: block;
+    position: relative;
+    z-index: 1100;
   }
-  
+
   .nav-menu {
-    position: absolute;
-    top: 100%;
-    left: 0;
+    position: fixed;
+    top: 70px;               /* height of header */
+    right: 16px;
+    width: 260px;
+    max-height: calc(100vh - 90px);
+    overflow-y: auto;
+
     display: none;
-    width: 100%;
     flex-direction: column;
-    align-items: flex-start;
-    background: var(--glass-bg);
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
-    border-radius: 12px;
-    padding: var(--spacing-md);
-    margin-top: var(--spacing-sm);
-    gap: var(--spacing-xs);
-    z-index: 999;
+
+    background: rgba(255, 255, 255, 0.96); /* SOLID readable */
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+
+    border-radius: 14px;
+    padding: 16px;
+    gap: 8px;
+
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+    z-index: 1099;
   }
-  
+
   .nav-menu.active {
     display: flex;
-    animation: fadeIn 0.3s ease;
+    animation: slideDown 0.25s ease;
   }
-  
+
   .nav-menu a {
     width: 100%;
+    padding: 10px 12px;
+    border-radius: 8px;
+  }
+  body.nav-open {
+  overflow: hidden;
+}
+
+}
+
+/* Smooth animation */
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 
-@keyframes fadeIn {
-  from { opacity: 0; transform: translateY(-10px); }
-  to { opacity: 1; transform: translateY(0); }
-}
 
 /* ========== Hero Section ========== */
 .hero {

@@ -223,28 +223,34 @@ img {
   border-radius: 8px;
 }
 
-.internal-links a{
-  text-decoration: none;
-  color: var(--text-dark);
-}
-.internal-links h3{
+.internal-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;     /* centers horizontally */
   text-align: center;
-}
-.internal-links{
-  margin-top: 70px;
-}
-.internal-links u1{
-  list-style-position: inside;
-  padding: 0;
-  display: inline-block;
-  width: fit-content;
-  text-align: center;
-  margin: 16px auto 0;
+  margin: 60px auto;
 }
 
-.internal-links a:hover{
+.internal-links ul {
+  list-style-position: inside; /* keeps bullets centered */
+  padding: 0;
+  margin: 0;
+}
+
+.internal-links li {
+  margin: 10px 0;
+}
+
+.internal-links a {
+  text-decoration: none;
+  color: #2f3e34;
+  font-weight: 500;
+}
+
+.internal-links a:hover {
   text-decoration: underline;
 }
+
 
 /* ========== Footer ========== */
 .footer {

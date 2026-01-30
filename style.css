@@ -227,6 +227,13 @@ img {
   text-decoration: none;
   color: var(--text-dark);
 }
+.internal-links h3{
+  text-align: center;
+}
+.internal-links u1{
+  width: fit-content;
+  margin: 16px auto 0;
+}
 
 .internal-links a:hover{
   text-decoration: underline;

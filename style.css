@@ -232,13 +232,15 @@ img {
 }
 
 .internal-links ul {
+  width:fit-content;
   list-style-position: inside; /* keeps bullets centered */
-  padding: 0;
-  margin: 0;
+  padding-left: 0;
+  margin: 0 auto;
+  text-align: left;
 }
 
 .internal-links li {
-  margin: 10px 0;
+  margin: 12px 0;
 }
 
 .internal-links a {
